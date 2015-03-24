@@ -1,0 +1,29 @@
+initial.iterations 0
+initial.temperature 2000
+initial.attraction 10
+initial.damping_mult 1.0
+
+liquid.iterations 200
+liquid.temperature 2000
+liquid.attraction 2
+liquid.damping_mult 1.0
+
+expansion.iterations 200
+expansion.temperature 2000
+expansion.attraction 10
+expansion.damping_mult 1.0
+
+cooldown.iterations 200
+cooldown.temperature 2000
+cooldown.attraction 1
+cooldown.damping_mult .1
+
+crunch.iterations 50
+crunch.temperature 250
+crunch.attraction 1
+crunch.damping_mult .25
+
+simmer.iterations 100
+simmer.temperature 250
+simmer.attraction .5
+simmer.damping_mult 0
